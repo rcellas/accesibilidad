@@ -1,11 +1,29 @@
-#skipnav {
-    position:absolute; 
-    top:-10000px;
-  }
-  nav{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     text-decoration: none;
-  }
+body{
+    margin: 0;
+}
+.sect-1{
+    background-color: #FFFA02;
+}
+
+.sect-1 h2{
+    margin:20px;
+    padding: 10px;
+}
+.sect-1 img{
+    width: 15%;
+    align:center;
+}
+
+.sect-2 img .decor{
+    position: absolute;
+    z-index: -100;
+}
+
+.pulse{
+    position: absolute;
+    width: 50%;
+    z-index: 100;
+    right: 60px;
+}
+  
  
